@@ -25,6 +25,7 @@
 
 <script setup>
 const supabase = useSupabaseClient();
+const client = useSupabaseAuthClient()
 
 const loading = ref(false);
 const email = ref("");
@@ -40,4 +41,5 @@ const handleLogin = async () => {
     loading.value = false;
   }
 };
+
 </script>

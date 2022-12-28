@@ -7,6 +7,4 @@
 
 <script setup>
 const user = useSupabaseUser();
-/* window.global = window;
-var exports = {}; */
 </script>
