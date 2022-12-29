@@ -2,4 +2,5 @@
 export default defineNuxtConfig({
     modules: ['@nuxtjs/supabase'],
    /*  plugins: ['~/plugins/Amplify.ts'], */
+   nitro: {preset: 'netlify'},
 })
